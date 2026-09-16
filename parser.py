@@ -93,6 +93,6 @@ def load_transactions(path):
             transactions.append(transaction)
         except ValueError as error:
             rejections.append(f"Row {row_number}: {error}")
-            except Exception as error:
+        except Exception as error:
             rejections.append(f"Row {row_number}: Unexpected error: {error}")
     return transactions, rejections

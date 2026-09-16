@@ -1,0 +1,16 @@
+date,description,amount,category
+2026-08-01,Salary,15000,Income
+2026/08/03,Groceries,-450.50,Food
+2026-08-04,Transport,-200,Transport
+2026-08-05,Electricity,-850,Utilities
+2026-08-06,Freelance,2500,Income
+2026-08-07,Coffee,-45,Food
+2026-08-08,Internet,-699,Utilities
+2026-08-09,Salary,15000,Income
+2026-08-09,Salary,15000,Income
+2026-08-10,Incorrect expense,500,Food
+2026-08-11,Incorrect income,-300,Income
+2026-08-12,Missing category,-100
+hello world
+2026-08-13,Broken amount,abc,Food
+ 2026-08-14, Cinema ,-250,  Entertainment 
