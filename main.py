@@ -1,3 +1,5 @@
+import subprocess
+import sys
 
 from parser import generate_sample_file, load_transactions
 from analytics import (
@@ -146,8 +148,16 @@ def main():
                 print(f"Report saved to {path}")
 
             elif choice == "8":
-                print("Run this command in the terminal:")
-                print("python tests.py")
+                print("\nRunning self-tests...\n")
+
+                result = subprocess.run(
+                    [sys.executable, "tests.py"]
+                )
+
+                if result.returncode == 0:
+                    print("\nAll tests passed through the menu.")
+                else:
+                    print("\nSome tests failed.")
 
             elif choice == "9":
                 print("Goodbye!")

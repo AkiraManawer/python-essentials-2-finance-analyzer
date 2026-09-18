@@ -23,6 +23,12 @@ def monthly_summary(
         if transaction.amount > 0
     )
 
+    total_expenses = sum(
+        abs(transaction.amount)
+        for transaction in transactions
+        if transaction.amount < 0
+    )
+
     balance = sum(
         transaction.amount
         for transaction in transactions

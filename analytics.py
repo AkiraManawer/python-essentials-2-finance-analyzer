@@ -35,7 +35,7 @@ def find_duplicates(transactions):
 def find_outliers(transactions):
     if len(transactions) < 3:
         return []
-    amounts = [transaction.ammount for transaction in transactions]
+    amounts = [transaction.amount for transaction in transactions]
 
     average = mean(amounts)
     standard_deviation = stdev(amounts)

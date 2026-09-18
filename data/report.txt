@@ -1,0 +1,28 @@
+PERSONAL FINANCE REPORT
+=============================================
+Report date: 2026-09-18 06:28:18
+Operating System: Windows
+Platform: Windows-11-10.0.26200-SP0
+Python version: 3.14.6
+
+Valid Transactions: 11
+Rejected rows: 5
+Total Income: 48000.00
+Total expenses: 2494.50
+Net balance change: 45505.50
+
+Category Totals:
+=============================================
+INCOME: 47500.00
+FOOD: 4.50
+TRANSPORT: -200.00
+UTILITIES: -1549.00
+ENTERTAINMENT: -250.00
+
+Duplicate Transactions:
+=============================================
+<models.Transaction object at 0x00000287487FAC50>
+
+Outliers:
+=============================================
+No outliers found.
